@@ -11,6 +11,8 @@ namespace ProjectP.Core.UnitTests
             var sut = new DTO.Thing();
             Assert.IsNotNull(sut.Properties);
             Assert.IsNotNull(sut.Links);
+            Assert.IsNotNull(sut.PropertyGroups);
+            Assert.IsNotNull(sut.LinkGroups);
         }
     }
 }
